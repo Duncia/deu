@@ -1,0 +1,38 @@
+.container {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  @include tablet {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  &__inner {
+    max-width: 1240px;
+    @include veryBigScreen {
+      max-width: 1440px;
+    }
+    margin: auto !important;
+  }
+}
+.d-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  @include smallLaptop {
+    grid-template-columns: 1fr 1fr;
+  }
+  row-gap: 2rem;
+  column-gap: 2rem;
+}
+.d-grid-3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  @include smallLaptop {
+    grid-template-columns: 1fr 1fr;
+  }
+  @include desktop {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  row-gap: 2rem;
+  column-gap: 2rem;
+}

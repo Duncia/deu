@@ -1,0 +1,82 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        {
+          "slug": "deu-black",
+          "color": "#0F110F",
+          "name": "DEU Black"
+        },
+        {
+          "slug": "deu-white",
+          "color": "#ffffff",
+          "name": "DEU White"
+        },
+        {
+          "slug": "deu-purple",
+          "color": "#6F26C2",
+          "name": "DEU Purple"
+        },
+        {
+          "slug": "deu-dark-text",
+          "color": "#353535",
+          "name": "DEU Dark Text"
+        },
+        {
+          "slug": "deu-grey-text",
+          "color": "#A6A6A6",
+          "name": "DEU Grey Text"
+        },
+        {
+          "slug": "deu-dark-bg",
+          "color": "#1D1C2D",
+          "name": "DEU Dark BG"
+        }
+      ],
+      "background": true,
+      "text": true,
+      "link": true,
+      "custom": true,
+      "defaultGradients": false
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "DM Sans, sans-serif",
+          "slug": "deu-dm-sans",
+          "name": "DEU DM Sans"
+        },
+        {
+          "fontFamily": "Lexend Deca, sans-serif",
+          "slug": "deu-lexend-deca",
+          "name": "DEU Lexend Deca"
+        }
+      ],
+      "fontSizes": [
+        { "slug": "small", "size": "0.75rem", "name": "Small" },
+        { "slug": "medium", "size": "1rem", "name": "Medium" },
+        { "slug": "large", "size": "1.5rem", "name": "Large" },
+        { "slug": "x-large", "size": "2rem", "name": "Extra Large" },
+        { "slug": "gigantic", "size": "3rem", "name": "Gigantic" }
+      ],
+      "lineHeight": true,
+      "dropCap": true,
+      "fontWeight": true,
+      "fontStyle": true,
+      "textTransform": true,
+      "letterSpacing": true,
+      "textDecoration": true
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "units": ["px", "rem", "vh", "vw", "%"],
+      "blockGap": true
+    }
+  },
+  "styles": {}
+}
