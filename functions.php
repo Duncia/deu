@@ -1,4 +1,5 @@
 <?php
+require_once get_template_directory() . '/inc/cs-posts.php';
 //Theme setup
 function deu_setup(){
     //Title in the tab of every page
