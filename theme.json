@@ -78,5 +78,71 @@
       "blockGap": true
     }
   },
-  "styles": {}
+  "styles": {
+    "elements": {
+      "button": {
+        "color": {
+          "background": "#6f26c2",
+          "text": "#ffffff"
+        },
+        "border": {
+          "radius": "30px",
+          "width": "1px",
+          "style": "solid",
+          "color": "#6f26c2"
+        },
+        "typography": {
+          "fontFamily": "DM Sans",
+          "fontWeight": "700",
+          "fontSize": "1rem"
+        },
+        "spacing": {
+          "padding": {
+            "bottom": "15px",
+            "top": "15px",
+            "left": "25px",
+            "right": "25px"
+          }
+        },
+        ":hover": {
+          "color": {
+            "background": "#0f110f"
+          },
+          "border": {
+            "width": "1px",
+            "style": "solid",
+            "color": "#ffffff"
+          }
+        },
+        ":focus": {
+          "color": {
+            "background": "#0f110f"
+          },
+          "border": {
+            "width": "1px",
+            "style": "solid",
+            "color": "#ffffff"
+          }
+        },
+        ":active": {
+          "color": {
+            "background": "#0f110f"
+          },
+          "border": {
+            "width": "1px",
+            "style": "solid",
+            "color": "#ffffff"
+          }
+        }
+      }
+    },
+    "typography": {
+      "fontStyle": "value",
+      "fontWeight": "value",
+      "lineHeight": "value",
+      "textDecoration": "value",
+      "textTransform": "value"
+    },
+    "blocks": {}
+  }
 }

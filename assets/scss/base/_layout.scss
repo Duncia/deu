@@ -24,8 +24,9 @@
   row-gap: 2rem;
   column-gap: 2rem;
 }
+
 .d-grid-3 {
-  display: grid;
+  display: grid !important;
   grid-template-columns: 1fr;
   @include smallLaptop {
     grid-template-columns: 1fr 1fr;

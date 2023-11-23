@@ -1,24 +1,39 @@
 /*Paddings*/
-.pt-sm{
-    padding-top: 2rem;
+.pt-sm {
+  padding-top: 2rem;
 }
-.pb-sm{
-    padding-bottom: 2rem;
+.pb-sm {
+  padding-bottom: 2rem;
 }
-.pt-md{
-    padding-top: 4rem;
+.pt-md {
+  padding-top: 4rem;
 }
-.pb-md{
-    padding-bottom: 4rem;
+.pb-md {
+  padding-bottom: 4rem;
 }
-.pt-lr{
-    padding-top: 6rem;
+.pt-lr {
+  padding-top: 6rem;
 }
-.pb-lr{
-    padding-bottom: 6rem;
+.pb-lr {
+  padding-bottom: 6rem;
 }
 
-/*Other*/
-.txt-center{
-    text-align: center;
+/*Alignment*/
+.txt-center {
+  text-align: center;
+}
+/*Fancy text underline*/
+.word-fancy-underline {
+  position: relative;
+  h3 {
+    position: relative;
+  }
+  figure {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    width: calc(100% + 40px);
+    height: calc(-200% + 20px);
+    transform: translate(-50%, -50%);
+  }
 }

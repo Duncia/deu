@@ -1,48 +1,54 @@
 //Screen size 480px
 @mixin tablet {
-    @media only screen and (min-width: 30em) {
-        @content
-    };
+  @media only screen and (min-width: 30em) {
+    @content;
+  }
+}
+//Screen size 600px
+@mixin tabletXl {
+  @media only screen and (min-width: 37.5em) {
+    @content;
+  }
 }
 
 //Screen size 768px
 @mixin smallLaptop {
-    @media only screen and (min-width: 48em) {
-        @content
-    };
+  @media only screen and (min-width: 48em) {
+    @content;
+  }
 }
 
 //Screen size 900px
 @mixin biggerLaptop {
-    @media only screen and (min-width: 56.25em) {
-        @content
-    };
+  @media only screen and (min-width: 56.25em) {
+    @content;
+  }
 }
 
 //Screen size 1024px
 @mixin desktop {
-    @media only screen and (min-width: 64em) {
-        @content
-    };
+  @media only screen and (min-width: 64em) {
+    @content;
+  }
 }
 
 //Screen size 1200px
 @mixin largeScreen {
-    @media only screen and (min-width: 75em) {
-        @content
-    };
+  @media only screen and (min-width: 75em) {
+    @content;
+  }
 }
 
 //Screen size 1200px
 @mixin largeScreen {
-    @media only screen and (min-width: 75em) {
-        @content
-    };
+  @media only screen and (min-width: 75em) {
+    @content;
+  }
 }
 
 //Screen size 1640px
 @mixin veryBigScreen {
-    @media only screen and (min-width: 102.5em) {
-        @content
-    };
+  @media only screen and (min-width: 102.5em) {
+    @content;
+  }
 }
