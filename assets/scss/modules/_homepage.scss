@@ -2,7 +2,11 @@
 .d-grid-2-hero {
   display: grid !important;
   grid-template-columns: 1fr !important;
+
   @include biggerLaptop {
+    grid-template-columns: 3fr 2fr !important;
+  }
+  @include desktop {
     grid-template-columns: 1fr 1fr !important;
   }
   row-gap: 2rem;
@@ -34,6 +38,9 @@
   @include desktop {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  @include veryBigScreen {
+    max-width: 1440px;
+  }
   column-gap: 2rem;
   .box {
     position: relative;
@@ -60,7 +67,14 @@
       top: 0;
       left: 0;
     }
+    h3 {
+      text-align: left;
+    }
+    p {
+      text-align: left;
+    }
     &__btn--link {
+      text-align: left;
       padding-top: 1rem;
       letter-spacing: 1px;
       font-family: "Lexend Deca", sans-serif;
@@ -89,6 +103,21 @@
       width: 0rem;
       margin-right: 0rem;
       transition: all 0.5s;
+    }
+  }
+  .box:last-of-type {
+    grid-column: span 1;
+    justify-self: center;
+    text-align: center;
+    @include tabletXl {
+      grid-column: span 2;
+      justify-self: center;
+      text-align: center;
+    }
+    @include desktop {
+      grid-column: span 1;
+      justify-self: center;
+      text-align: center;
     }
   }
 }

@@ -41,7 +41,15 @@
       "text": true,
       "link": true,
       "custom": true,
-      "defaultGradients": false
+      "defaultGradients": false,
+      "customGradient": true,
+      "gradients": [
+        {
+          "slug": "deu-separator",
+          "name": "DEU White",
+          "gradient": "linear-gradient(-90deg, #5cc2ed 0, #5d62ee 50%, #c298d3 100%)"
+        }
+      ]
     },
     "typography": {
       "fontFamilies": [

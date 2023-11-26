@@ -39,13 +39,6 @@
   }
 }
 
-//Screen size 1200px
-@mixin largeScreen {
-  @media only screen and (min-width: 75em) {
-    @content;
-  }
-}
-
 //Screen size 1640px
 @mixin veryBigScreen {
   @media only screen and (min-width: 102.5em) {
